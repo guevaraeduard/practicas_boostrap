@@ -21,32 +21,11 @@ h1{
     font-size: 3.8rem;
 }
 
-@media (min-width: 768px){
-    h1{
-        font-size: 5rem;
-    }
-    
-}
-
 h2{
     font-size: 3.2rem;
 }
-
-@media (min-width: 768px){
-    h2{
-        font-size: 4rem;
-    }
-    
-}
 h3{
     font-size: 2.4rem;
-}
-
-@media (min-width: 768px){
-    h3{
-        font-size: 3rem;
-    }
-    
 }
 
 /*Para reescribir*/
@@ -70,8 +49,44 @@ h3{
     background-position: center center;
 }
 
-@media(min-width: 768px){
+.producto img{
+
+}
+
+.form-control{
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+.categoria img{
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+
+.categoria img:hover{
+    transform: scale(1.2);
+}
+/*Aplica a todos menos el ultimo*/
+.galeria li:not(:last-of-type){
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px ){
+    .producto img{
+        height: 43rem;
+        width: 100%;
+        object-fit: cover;
+    }
     .hero{
         height: 40rem;
     }
+    h3{
+        font-size: 3rem; 
+    }
+    h2{
+        font-size: 4rem;
+    }
+    h1{
+        font-size: 5rem;
+    }       
 }
