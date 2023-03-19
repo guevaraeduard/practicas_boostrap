@@ -1,0 +1,17 @@
+{
+    "name": "03-meeti",
+    "version": "1.0.0",
+    "description": "aprendiedo",
+    "main": "index.js",
+    "scripts": {
+        "test": "sass --watch src/scss:build/css"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "bootstrap": "^5.2.3",
+        "i": "^0.3.7",
+        "npm": "^9.6.1",
+        "sass": "^1.59.3"
+    }
+}
